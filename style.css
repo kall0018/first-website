@@ -1,0 +1,354 @@
+body { 
+background-image: url(achtergrond.jpg);
+background-size: cover;
+background-size: 100%;
+background-repeat: no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;;
+background-attachment: fixed;
+max-width: 100%;
+max-height: auto;
+margin: auto;
+/*background-position: center; voor deze achtergrond die ik nu heb heb ik background-position:center; niet nodig, maar bij een andere achtergrond misschien weer wel*/
+}
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+  }
+
+  
+  
+  li a {
+    float: left;
+  }
+  
+  ul li a {
+    display: block;
+    color: #15d4d4;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  ul li a:hover {
+    background-color: rgb(218, 201, 201);
+  }
+  .active {
+      background-color: #1909af;
+  }
+  body {
+      font-size: 20px;
+      color: #15d4d4
+      
+  }
+  /* all of the above was for the navigation bar en the tekst en links inside it*/
+  .main-wrapper {
+      position: relative;
+      margin: 0 0 0 0;
+      height: 100%;
+
+  } 
+  
+  h1 {
+       margin: 20px 0px 20px 0px;
+   }
+
+
+   .wrapper {
+    position: relative;
+    border-radius: 20px;
+    padding: 100px;
+    text-align: left;
+   }
+
+    .content { 
+        margin-left: 10%;
+        width: 35%;
+        background: #000000;
+        border-radius: 50px;
+        padding: 20px;
+        text-align: center;
+    }
+    .img-container{
+        position: absolute;
+        width: 100%;
+        text-align: right;
+    }
+
+    .partner {
+        position: relative;
+        margin-right: 5%;
+        height: 200px; 
+    }
+
+    .faq-picture {
+        position: relative;
+        margin-right: 5%;
+        height: 200px; 
+    }
+
+    .faqprint-picture {
+        position: relative;
+        margin-right: 5%;
+        margin-top: 500PX;
+        height: 200px; 
+    }
+
+    .parking-picture {
+        position: relative;
+        margin-right: 5%;
+        margin-top: 950PX;
+        height: 200px; 
+    }
+
+    #photo-profile {
+        margin-right: 5%;
+    }
+
+    a:link, a:visited {
+        color: #15d4d4;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        max-width: fit-content;
+        min-width: 100px;
+        display: inline-block;
+      }
+      
+      a:link, a:hover {
+        color: #d41584;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        max-width: fit-content;
+        min-width: 100px;
+        display: inline-block;
+      }
+    
+   
+      
+      /*begin table*/
+     /*
+      table { 
+        max-width: 300%;
+        max-height: auto;
+        width: 200%;
+        height: auto;
+        background-color: orangered;
+      }
+
+      table, th, td {
+        border: 1px solid rgb(50, 50, 50);
+        border-collapse: collapse;
+}
+      th, td {
+        padding: 15px;
+        text-align: center;
+}
+      #table tr:nth-child(even) {
+        background-color: rgb(55, 55, 55);
+}
+      #table tr:nth-child(odd) {
+       background-color: rgb(33, 33, 33);
+}
+      #table th {
+        background-color: black;
+        color: white;
+}
+*/
+/*end of my beautiful table*/
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 18%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 15px 25px rgba(15,15,15,0.3), 0 11px 11px rgba(15,15,15,0.4);
+     }
+
+     .dashboard-link {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+        margin-top: -15px;
+        width: fit-content;
+        background: rgb(32, 32, 32);
+        padding: px;
+        font-size: 15px;
+     }
+   
+      .dashboard-link a:hover {
+        background-color: rgb(53, 52, 54);
+      }
+
+     .dashboard-box {
+        margin-left: 23.5%;
+        margin-top: -80px;
+        width: 50%;
+        background: #000000;
+        border-radius: 20px;
+        padding: 22px;
+        text-align: center;
+     }
+
+     h3 {
+        color: rgb(255, 255, 255);
+         background-color: rgba(109, 18, 151, 0); 
+         width: 150px;
+         margin-left: 248px;
+         margin-top: -5px;
+         padding: 20px;
+         text-align: center;
+         border-radius: 20px;
+          }
+/*
+          table { 
+            max-width: 50%;
+            max-height: auto;
+
+          }
+          */
+  
+  /*table below*/
+  /*
+          table {
+            width: 50%;
+            height: auto;
+  }
+          table, th, td {
+            border: 1px solid rgb(50, 50, 50);
+            border-collapse: collapse;
+  }
+          th, td {
+            padding: 15px;
+            text-align: center;
+  }
+          #table1 tr:nth-child(even) {
+            background-color: rgb(55, 55, 55);
+  }
+          #table1 tr:nth-child(odd) {
+           background-color: rgb(33, 33, 33);
+  }
+          #table1 th {
+            background-color: black;
+            color: white;
+  }
+  */
+  /*table end*/
+
+  h2 {
+      margin-top: 20px;
+  }
+
+  .wrapper2 {
+    border-radius: 25px;
+    position: relative;
+    text-align: center;
+    width: 67%;
+    background: #000000;
+    margin-left: 50.5%;
+    transform: translate(-50%, -50%);
+    margin-top: 650px;
+    padding-top: 20px;
+    padding-bottom: 30px
+    }
+
+   
+
+  table, th, td { 
+      border: 1px solid rgb(44, 43, 43);
+      text-align: left;
+      border-collapse: collapse;
+      padding: 20px;
+  }
+
+  th {
+      color: #fff;
+      
+  }
+
+  td {
+      color: #15d4d4;
+      font-size: 16px;
+
+  }
+
+  table { 
+      width: 100%;
+      margin: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 15px;
+      margin-top: -15px;
+      width: fit-content;
+  }
+
+  .progress {
+      background-color: #5c5656;
+      border-radius: 20px;
+      height: 40px;
+      max-width: 800px;
+      margin-left: 60px;
+      margin-top: -20px;
+      
+  }
+
+  .progress-done {
+      background: linear-gradient(to left, #F2709c, #FF9472);
+      border-radius: 20px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      height: 100%;
+      max-width: 700px;
+      width: 0px;
+    }
+  
+    .progress-done {
+        transition: 1s ease;
+    }
+
+    .progress2 {
+      background-color: #5c5656;
+      border-radius: 20px;
+      height: 40px;
+      max-width: 800px;
+      margin-left: 60px;
+      margin-top: -20px;
+      
+  }
+
+  .progress-done2 {
+      background: linear-gradient(to left, #F2709c, #FF9472);
+      border-radius: 20px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      height: 100%;
+      max-width: 700px;
+      width: 0px;
+    }
+  
+    .progress-done2 {
+        transition: 1s ease;
+    }
+
+    h6 {
+        font-size: 20px;
+        color: rgb(194, 84, 145)
+    }

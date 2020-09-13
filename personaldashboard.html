@@ -1,0 +1,126 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="description" content="Kosta's HZ-profile">
+      <meta name="author" content="Kosta Kallias">
+      <meta name="keywords" content="HTML,CSS,HZ,HBO-ICT">
+      <title>Kosta's HZ profile</title> 
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+  </head>
+  <body>  
+    <div>
+      <ul class="navbar-list">   
+        <li><a class="active" href="index.html"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="theprofilepage.html">Profile</a></li>
+        <li><a href="personaldashboard.html">Dashboard</a></li>
+        <li><a href="frequentlyaskedquestion.html">FAQ</a></li>
+        <li style="float:right"><a href="contact.html"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
+      </ul>  
+    </div>
+
+    <h1>Dashboard</h1>
+
+    <div class="wrapper">
+      <div class="dashboard-box">
+         <h3>Studyguide</h3>
+        <div class="dashboard-link">
+            <a href="  https://apps.hz.nl/angular/studievoortgang/studiestatus" target="_blank">
+              Studyprogress
+            </a>
+            <br>
+            <a href="https://learn.hz.nl/my/" target="_blank">
+              HZ learn
+            </a>
+            <br>
+            <a href="#github" target="blank">
+              Github page
+            </a>
+            <br>
+            <a href="https://teams.microsoft.com/?culture=en-us&country=US&lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/school/conversations/?ctx=channel" target="_blank">
+              Teams
+            </a>
+            <br>
+            <a href="https://hz.nl/uploads/documents/Regelingen/EN/OER-HZ-2019-2020werkdocv2018-05-17DEF_ENGELS-AC-29112019.pdf" target="_blank">
+              CER
+            </a>
+            <br>
+            <a href="https://hz.nl/uploads/documents/Regelingen/OERS/2019-2020/2020-2021-ICT-Implementation-Regulations-CER-HZ-DEF1.0.pdf" target="_blank">
+              IR
+          </a>
+        </div>
+        </div>
+       
+        <div class="wrapper2"> 
+          <h2>Study monitor</h2> <br>
+          <table>
+            <tr>
+              <th>Quartile</th>  <th>Course</th>  <th>Exam</th>  <th>Grade</th>  <th>EC's</th>
+            </tr>
+            <tr>
+              <th>Q1</th> <td>Program- & Career Orientation (PCO) <hr>Computer Science Basics  (CBA)<hr>Programming Basics (PBA)</td>
+                          <td>Portfolio based Assessment Exam<hr>Written Exam<hr>Case Study Exam</td>
+                          <td>-<hr>-<hr>-</td>
+                          <td>0/2.5<hr>0/7.5<hr>0/5</td>
+            </tr>
+            <tr>
+              <th>Q2</th> <td><br>Object-Oriented Programming (OOP)<hr> Professional Skills 1 (PSK1) </td> 
+              <td>1. Presentation<br>2. Case study Exam<hr>Portfolio + optional Assessment</td>
+              <td>1. -<br>2. -<hr>-</td>
+              <td>0/5<br>0/5<hr>0/2.5</td>
+            </tr>
+            <tr>
+              <th>Q3</th> <td> <br> Framework Project 1 (FPR 1)<hr>Framework Development 1 (FDE1)<hr>Professional Working Environment (PWE)<hr>Professional skills 2</td> 
+                          <td> <br> <br> 1. Portofolio <br>2. Portfolio<hr>Case study Exam<hr>Workplace assessment<hr>1. Portofolio, optional Assessmemt<br>2. Open qeustions, multiple choice <br>3. Multiple choice, paper.</td>
+                          <td> <br><br> 1. -<br>2. -<hr>-<hr>-<hr>1. -<br>2. -<br>3. -</td>
+                          <td> <br><br> 0/2.5<br>0/2.5<hr>0/5<hr>0/2.5<hr>0/1.5 <br>0/1 <br>0/1</td>
+            </tr>
+            <tr>
+              <th>Q4</th> <td>Framework Project 2 (FPR2)<hr>Framework Development 2 (FDE2)<hr>Professional skills 3</td> 
+                          <td> <br><br> Portofolio based Assessment<hr>Portofolio<hr>1. Portofolio, optional Assessmemt<br>2. Open qeustions, multiple choice <br>3. Multiple choice, paper.</td>
+                          <td> <br><br> -<hr>-<hr>1. -<br>2. -<br>3. -</td>
+                          <td> <br><br> 0/5<hr>0/5<hr>0/1.5 <br>0/1 <br>0/1</td>
+            </tr>
+          </table>
+          <h6>NBSA Boundary</h6>
+          <div class="progress">
+            <div class="progress-done" data-done="70">
+              0/45 EC's = 0%
+            </div>
+         </div>
+
+         <h6>Road To Propedeuse</h6>
+          <div class="progress2">
+            <div class="progress-done2" data-done="70">
+              0/45= 0%
+            </div>
+         </div>
+
+        </div>
+      </div>
+    
+      
+        
+  </body>
+  <script>
+    const progress = document.querySelector('.progress-done');
+
+
+    setTimeout(() => {
+        progress.style.opacity = 1;
+        progress.style.width = progress.getAttribute('data-done') + '%';
+    },500)
+
+    const progress2 = document.querySelector('.progress-done2');
+
+
+setTimeout(() => {
+    progress2.style.opacity = 1;
+    progress2.style.width = progress2.getAttribute('data-done') + '%';
+},500)
+
+  </script>
+</html> 
